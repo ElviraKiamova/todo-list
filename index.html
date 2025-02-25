@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Todo list</title>
+	</head>
+	<body>
+		<main>
+			<section class="todo-list">
+				<h2 class="todo-list__title">Мои задачи</h2>
+				<div class="todo-list__box">
+					<input class="todo-list__input" type="text" placeholder="Введите задачу..." autocomplete="off" tabindex="1" required>
+					<button class="todo-list__button" aria-label="Добавить задачу" type="button" tabindex="2" title="Добавить задачу в список" disabled>Добавить задачу</button>
+				</div>
+				<ul class="todo-list__list" aria-live="polite"></ul>
+			</section>
+		</main>
+	</body>
+</html>
