@@ -8,6 +8,7 @@ inputElement.addEventListener('input', () => {
 
 function createTask() {
   const task = document.createElement('li');
+  task.classList.add('todo-list__item');
   task.textContent = inputElement.value;
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'Удалить';
